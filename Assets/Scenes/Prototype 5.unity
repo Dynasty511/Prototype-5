@@ -629,6 +629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1513417610}
+  - component: {fileID: 1513417611}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -651,6 +652,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1513417611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513417608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e400eebc3034a598e01c5220567c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targets:
+  - {fileID: 1038776699627164788, guid: 3366d7529862645faa4101dac3c924c9, type: 3}
+  - {fileID: 1240889695674278285, guid: 854e149ecc61942e09d057be91aa94c4, type: 3}
+  - {fileID: 4723751671995601589, guid: 6158c4a9c7143473f90b811c94618782, type: 3}
+  - {fileID: 498271510490901096, guid: c36613d3816974b8aae2d2e079adaf95, type: 3}
+  scoreText: {fileID: 1269875893}
+  score: 0
+  spawnRate: 1
 --- !u!1 &1611319330
 GameObject:
   m_ObjectHideFlags: 0
